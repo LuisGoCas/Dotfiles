@@ -50,56 +50,6 @@ URxvt.iso14755:                false
 *pointerColorBackground: #586e75
 *pointerColorForeground: #93a1a1
 
-
-
-!*color0: #ff3642
-
-!*color8: #002b36
- 
-!*color1: #ff322f
-
-!!!!!name & host:
-!!!!!*color9: #cb4b16
-
-
-
-!*color2: #859900
-
-
-!!!!!!!!!time,hour
-!!!!!!!!!!!!!!!!!*color10:#01A52D
-
-!*color3: #b58900
-!!!!!!!!!!!!!!Directory
-!!!!!!!!!!!!!!!*color11: #657b83
- 
-!*color4: #268bd2
-!!!!!!!!!!!!!!!*color4: RoyalBlue
-!*color12: #839496
-
-
-
-
- 
-!*color5: #d33682
-!*color13: #6c71c4
- 
-!*color6: #2aa198
-!*color14: #93a1a1
- 
- 
-!*color7: #eee8d5
-!*color15: #fdf6e3
-
-
-!Already commented
-!*color0: #01A52D
-!*color8: #01A52D
-
-
-
-
-
 *foreground: #c8c8c8
 *background: #0f0f0f
 
@@ -127,7 +77,3 @@ URxvt.iso14755:                false
 !white
 *color7:  #efefef
 *color15: #efefef
-
-
-
-
