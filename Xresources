@@ -1,0 +1,133 @@
+!!!comment this show images in ranger:
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+URxvt.geometry: 80x20
+!URxvt.transparent: false
+! URxvt*.shading: 0 to 99 darkens, 101 to 200 lightens
+!URxvt*.shading: 70
+URxvt.fading: 0
+!URxvt*inheritPixmap: true
+URxvt.loginShell: false
+URxvt.saveLines: 50
+URxvt.internalBorder: 3
+URxvt.lineSpace: 0
+URxvt.allow_bold:true
+!URxvt*letterSpace: -1
+URxvt*letterSpace: 0
+URxvt.scrollStyle: rxvt
+URxvt.scrollBar: false 
+!URxvt.perl-ext-common: default,matcher
+URxvt.perl-ext-common:default,matcher,keyboard-select,clipboard,searchable-scrollback,font-size
+URxvt.matcher.button: 1
+URxvt.urlLauncher: firefox
+URxvt.cursorBlink: true
+URxvt.cursorColor: #E64500
+URxvt.cursorUnderline: false
+URxvt.pointerBlank: true
+URxvt.clipboard.autocopy: true
+!URxvt.clipboard.autocopy: false
+urxvt.borderLess: true
+urxvt.font: xft:Meslo LG S DZ:regular:pixelsize=14
+urxvt.boldfont: xft:Meslo LG S DZ:bold:pixelsize=14
+urxvt*letterSpace: -1
+
+!clipboard
+URxvt.keysym.C-C:              perl:clipboard:copy
+URxvt.keysym.C-V:              perl:clipboard:paste
+URxvt.keysym.C-A-V:            perl:clipboard:paste_escaped
+URxvt.clipboard.copycmd:       xclip -i -selection clipboard
+URxvt.clipboard.pastecmd:      xclip -o -selection clipboard
+! disable iso-14755 mode
+URxvt.iso14755:                false
+
+!*background:#000000
+!*foreground: #657b83
+!*foreground: #00cc00
+!*foreground: #ffffff
+!!*fading: 40
+*fadeColor: #002b36
+*cursorColor: #93a1a1
+*pointerColorBackground: #586e75
+*pointerColorForeground: #93a1a1
+
+
+
+!*color0: #ff3642
+
+!*color8: #002b36
+ 
+!*color1: #ff322f
+
+!!!!!name & host:
+!!!!!*color9: #cb4b16
+
+
+
+!*color2: #859900
+
+
+!!!!!!!!!time,hour
+!!!!!!!!!!!!!!!!!*color10:#01A52D
+
+!*color3: #b58900
+!!!!!!!!!!!!!!Directory
+!!!!!!!!!!!!!!!*color11: #657b83
+ 
+!*color4: #268bd2
+!!!!!!!!!!!!!!!*color4: RoyalBlue
+!*color12: #839496
+
+
+
+
+ 
+!*color5: #d33682
+!*color13: #6c71c4
+ 
+!*color6: #2aa198
+!*color14: #93a1a1
+ 
+ 
+!*color7: #eee8d5
+!*color15: #fdf6e3
+
+
+!Already commented
+!*color0: #01A52D
+!*color8: #01A52D
+
+
+
+
+
+*foreground: #c8c8c8
+*background: #0f0f0f
+
+!black
+*color0:  #251f1f
+*color8:  #5e5e5e
+!red
+*color1:  #eb4509
+*color9:  #eb4509
+!green
+*color2:  #94e76b
+*color10: #95e76b
+!yellow
+*color3:  #ffac18
+*color11: #ffac18
+!blue
+*color4:  #46aede
+*color12: #46aede
+!magenta
+*color5:  #e32c57
+*color13: #e32c57
+!cyan
+*color6:  #d6dbac
+*color14: #d6dbac
+!white
+*color7:  #efefef
+*color15: #efefef
+
+
+
+
