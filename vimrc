@@ -26,9 +26,9 @@ set softtabstop=0
 set noexpandtab
 set shiftwidth=4
 set smarttab
-"set cindent
+set cindent
 set backspace=indent,eol,start
-"set smartindent
+set smartindent
 set wildmenu
 set nohlsearch
 set title
@@ -50,7 +50,7 @@ set novisualbell
 "set relativenumber
 set ruler
 "set cmdheight=2
-"set pastetoglle=<F11>
+set pastetoggle=<F5>
 
 "let g:NERDTreeDirArrows=0
 "set ww+=<,>
